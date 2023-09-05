@@ -1,0 +1,109 @@
+/* Reset some default browser styles */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Apply a background color and text color */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style the main content section */
+main {
+  padding: 20px;
+}
+
+/* Style the article titles */
+article h3 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+/* Style the article content */
+article p {
+  color: #555;
+  font-size: 1.1em;
+}
+
+/* Add some margin and spacing between articles */
+article {
+  margin-bottom: 20px;
+}
+
+   /* Add your CSS styling here */
+   body {
+     font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+     margin: 0;
+     padding: 0;
+   }
+
+   header {
+     background-color: #333;
+     color: #fff;
+     text-align: center;
+     padding: 10px;
+   }
+
+   .container {
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 20px;
+     background-color: #fff;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   }
+
+   .fact {
+     text-align: center;
+     font-size: 24px;
+     margin-bottom: 20px;
+   }
+
+   .fact-description {
+     font-size: 18px;
+     margin-bottom: 20px;
+   }
+
+   .fact-button {
+     background-color: #333;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+   }
+
+   .fact-button:hover {
+     background-color: #555;
+   }
